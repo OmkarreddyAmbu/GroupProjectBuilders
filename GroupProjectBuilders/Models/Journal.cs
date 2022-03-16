@@ -8,5 +8,10 @@
         public string Content { get; set; }
         public User User { get; set; }
         public int UserNumber { get; set; }
+ 
+        public User Editor { get; set; }
+        public User Owner { get; set; }
+
+
     }
 }
