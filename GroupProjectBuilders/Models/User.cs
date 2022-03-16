@@ -1,6 +1,8 @@
-﻿namespace GroupProjectBuilders.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace GroupProjectBuilders.Models
 {
-    public class User
+    public class User : IdentityUser
     {
         public int UserId { get; set; }
         public string UserName { get; set; }
